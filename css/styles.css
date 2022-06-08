@@ -6,6 +6,9 @@ main {
     flex-direction: column;
     align-items: center;
 }
+h1 {
+    text-align: center;
+}
 p {
     width: 60%;
     font-size: 25px;
@@ -18,4 +21,15 @@ a {
 }
 a:hover {
     text-decoration: underline;
+}
+
+@media all and (max-width: 1000px) {
+    h1 {
+        width: 100%;
+        font-size: 60px;
+    }
+    p {
+        width: 90%;
+        font-size: 40px;
+    }
 }
